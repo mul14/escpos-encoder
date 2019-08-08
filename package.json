@@ -1,23 +1,23 @@
 {
   "name": "escpos",
-  "version": "2.5.1",
-  "description": "ESC/POS Printer driver for nodejs",
+  "version": "0.0.1",
+  "description": "ESC/POS Command Encoder JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/song940/node-escpos.git"
+    "url": "git+https://github.com/mul14/escpos-encoder.git"
   },
   "keywords": [
     "escpos",
     "printer"
   ],
   "author": {
-    "name": "Lsong",
-    "email": "hi@lsong.org",
-    "url": "https://lsong.org"
+    "name": "Mulia Arifandi Nasution",
+    "email": "mul14.net@gmail.com",
+    "url": "https://mul14.net"
   },
   "contributors": [
     "Jose Vera <hola@jose.com.co>",
@@ -29,19 +29,16 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/song940/node-escpos/issues"
+    "url": "https://github.com/mul14/escpos-encoder/issues"
   },
-  "homepage": "https://github.com/song940/node-escpos#readme",
+  "homepage": "https://github.com/mul14/escpos-encoder#readme",
   "dependencies": {
     "iconv-lite": "*",
     "mutable-buffer": "^2.0.3"
   },
   "optionalDependencies": {
     "get-pixels": "*",
-    "serialport": "*",
-    "qr-image": "*",
-    "usb": "*",
-    "node-bluetooth": "*"
+    "qr-image": "*"
   },
   "devDependencies": {
     "mocha": "*"
